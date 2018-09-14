@@ -1,0 +1,136 @@
+.signature-title {
+	font-size: 0.36rem;
+	color: #0F182A;
+	letter-spacing: 0;
+	padding-bottom: 0.2rem;
+	.close-style {
+		width: 0.3rem;
+		height: 0.3rem;
+		float: right;
+		padding-top: 0.1rem;
+	}
+}
+.signature-content {
+	font-size: 0.26rem;
+	color: #5F646E;
+	letter-spacing: 0.003rem;
+	padding-top: 0.2rem;
+	padding-left: 0.24rem;
+}
+.button-group {
+	text-align: right;
+	line-height: 0;
+	button:first-child {
+		width: 1.7rem;
+		height: 0.6rem;
+		background: #289069;
+		border-radius: 1rem;
+		font-size: 0.28rem;
+		color: #FFFFFF;
+		letter-spacing: 0;
+	}
+	button:last-child {
+		width: 1.7rem;
+		height: 0.6rem;
+		background: #FFFFFF;
+		border: 0.02rem solid #289069;
+		border-radius: 1rem;
+		font-size: 0.28rem;
+		color: #289069;
+		letter-spacing: 0;
+	}
+}
+#signatureparent {
+	color:darkblue;
+	background-color:#FFFFFF;
+	/*max-width:600px;*/
+	padding:20px;
+}
+
+/*This is the div within which the signature canvas is fitted*/
+.signature {
+	background: #F2F2F2;
+	border-radius: 10px;
+	height: 3rem;
+	input {
+		display: none !important;
+	}
+}
+.sign-button {
+	width: 1.7rem;
+	height: 0.6rem;
+	background: #289069;
+	border-radius: 1rem;
+	font-size: 0.28rem;
+	color: #FFFFFF;
+	letter-spacing: 0;
+}
+
+.Notify{
+    transition: all .3s ease 0s;
+    position: fixed;
+    width: 100%;
+    top: 0;
+	left: 0;
+	// transform: translateY(-50%);
+    height: 100vh;
+    background: rgba(15,24,42, 0.4);
+	z-index: 1;
+	// -webkit-transform: rotate(90deg);/*Safari 4+,Google Chrome 1+ */
+	// -moz-transform: rotate(90deg);/*Firefox 3.5+*/
+	// filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);/*ie*/
+    .NotifyPop{
+        transition: all .3s ease 0s;
+        z-index: 999;
+        // position: relative;
+        // background: #fff;
+		border-radius: 0.04rem;
+		// margin-top: 46%;
+    	// margin-left: -30%;
+		// padding: 0.2rem 0.3rem 0.3rem 0.3rem;
+		// -webkit-transform: rotate(90deg);/*Safari 4+,Google Chrome 1+ */
+		// -moz-transform: rotate(90deg);/*Firefox 3.5+*/
+		// transform: rotate(90deg);
+		// filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);/*ie*/
+		position: 'absolute';
+		// width: 11.5rem;
+		// height: 6rem;
+		.-tablet-container {
+			background: #FFFFFF;
+			margin-left: 0.1rem;
+			margin-top: 0.23rem;
+			padding: 0.4rem 0.4rem;
+		}
+		.-canvas-wrapper {
+			canvas {
+				background: #F2F2F2;
+				border-radius: 0.1rem;
+			}
+		}
+	}
+}
+
+.footer {
+	font-size: 0.24rem;
+	// min-height: 100%;
+	position: relative;;
+	padding-bottom: 0.3rem;
+	text-align: center;
+	// bottom: 0;
+	background: #FFFFFF;
+	clear: both;
+	width: 100%;
+	.footer-font {
+		font-size: 0.24rem;
+		color: #AAAFB9;
+		letter-spacing: 0;
+	}
+}
+
+button {
+	border-width: 0;
+}
+
+#template {
+	line-height: 0.4rem;
+}
